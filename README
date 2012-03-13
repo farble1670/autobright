@@ -1,0 +1,5 @@
+Auto Bright sets your screen brightness based on the sunrise and sunset times for you location.
+
+Auto Bright requires no configuration. Simply set your screen brightness normally during day and night cycles. Auto Bright will remember your setting and restore it at the next sun rise / set.
+
+Auto Bright needs to know your rough location in order to calculate sun rise / set times. Please make sure you have the Network (Google) location service enabled.
