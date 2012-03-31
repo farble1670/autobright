@@ -1,14 +1,11 @@
 package org.jtb.autobright;
 
 import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
 import java.util.TimeZone;
 import java.util.Timer;
 import java.util.TimerTask;
-
-import org.jtb.autobright.ALog.Level;
 
 import net.sourceforge.zmanim.AstronomicalCalendar;
 import net.sourceforge.zmanim.util.GeoLocation;

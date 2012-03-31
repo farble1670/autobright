@@ -3,3 +3,12 @@ Auto Bright sets your screen brightness based on the sunrise and sunset times fo
 Auto Bright requires no configuration. Simply set your screen brightness normally during day and night cycles. Auto Bright will remember your setting and restore it at the next sun rise / set.
 
 Auto Bright needs to know your rough location in order to calculate sun rise / set times. Please make sure you have the Network (Google) location service enabled.
+
+Reasoning for all permissions,
+
+android.permission.WAKE_LOCK- to keep device awake when determining location. 2x a day at most.
+android.permission.WRITE_SETTINGS- to determine if the network location provider is enabled.
+android.permission.RECEIVE_BOOT_COMPLETED- schedule time set brightness when device is rebooted.
+android.permission.ACCESS_COARSE_LOCATION- obtain rough location of device; required to determine sun rise / set times.
+android.permission.WRITE_EXTERNAL_STORAGE- allow logging system to write log files to SD card. By default, not enabled.
+android.permission.INTERNET- to upload crash reports to google docs.
